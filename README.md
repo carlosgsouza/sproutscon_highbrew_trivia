@@ -1,1 +1,1 @@
-# sproutscon_highbrew_trivia
+# SproutsCon 2024 - High Brew trivia game

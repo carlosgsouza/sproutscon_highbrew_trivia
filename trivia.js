@@ -1,19 +1,3 @@
-const questions = [
-    {
-        "category": "math",
-        "question": "What is the square root of 144?",
-        "correctAnswer": "12",
-        "incorrectAnswers": ["11", "13", "14"]
-    },
-    {
-        "category": "physics",
-        "question": "What is the SI unit of force?",
-        "correctAnswer": "Newton",
-        "incorrectAnswers": ["Joule", "Watt", "Pascal"]
-    },
-    // Add more questions here...
-];
-
 const categorySelection = document.getElementById('category-selection');
 const questionScreen = document.getElementById('question-screen');
 const answerScreen = document.getElementById('answer-screen');
@@ -23,6 +7,7 @@ const answerResult = document.getElementById('answer-result');
 const correctAnswerElement = document.getElementById('correct-answer');
 const backToCategoriesButton = document.getElementById('back-to-categories');
 const categoriesContainer = document.getElementById('categories');
+const funFactElement = document.getElementById('fun-fact');
 
 let currentQuestion;
 
@@ -78,6 +63,7 @@ function checkAnswer(event) {
     }
 
     correctAnswerElement.textContent = `The correct answer was: ${currentQuestion.correctAnswer}`;
+    funFactElement.textContent = `Fun fact: ${currentQuestion.funFact}`; 
 }
 
 // Back to categories

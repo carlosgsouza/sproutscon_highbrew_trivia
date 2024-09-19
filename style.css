@@ -7,7 +7,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    min-height: 90vh;
 }
 
 h1, h2 {
@@ -23,6 +23,7 @@ button {
     cursor: pointer;
     font-size: 16px;
     border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
 }
 
 #category-selection, #question-screen, #answer-screen {
@@ -41,14 +42,34 @@ button {
     margin-bottom: 20px;
 }
 
+.incorrect {
+    background-color: orange; 
+}
+
 #answer-result.incorrect {
     color: orange; 
     background-color: white;
-    padding: 5px 10px; /* Add some padding for visual clarity */
-    border-radius: 5px;  /* Optional: Add rounded corners */
+    padding: 5px 10px; 
+    border-radius: 5px;  
+}
+
+#header {
+    width: 100%;
+    z-index: 100; 
 }
 
 #header img {
-    height: 150px;
-    width: auto;   /* Let the width adjust automatically to maintain aspect ratio */
+    height: 150px; 
+    width: auto;   
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #3e6d38;
+    color: white;
+    text-align: center;
+    padding: 10px 0; 
 }
