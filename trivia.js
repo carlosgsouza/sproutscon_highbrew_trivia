@@ -4,6 +4,7 @@ const answerScreen = document.getElementById('answer-screen');
 const questionElement = document.getElementById('question');
 const options = document.querySelectorAll('.option');
 const answerResult = document.getElementById('answer-result');
+const questionInTheAnswerElement = document.getElementById('question-in-the-answer');
 const correctAnswerElement = document.getElementById('correct-answer');
 const backToCategoriesButton = document.getElementById('back-to-categories');
 const categoriesContainer = document.getElementById('categories');
@@ -62,8 +63,11 @@ function checkAnswer(event) {
         answerResult.classList.add('incorrect'); 
     }
 
-    correctAnswerElement.textContent = `The correct answer was: ${currentQuestion.correctAnswer}`;
-    funFactElement.textContent = `Fun fact: ${currentQuestion.funFact}`; 
+    questionInTheAnswerElement.textContent = currentQuestion.question;
+    correctAnswerElement.textContent = `${currentQuestion.correctAnswer}`;
+    funFactElement.textContent = `${currentQuestion.funFact}`; 
+
+    
 }
 
 // Back to categories

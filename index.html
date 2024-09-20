@@ -1,42 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Trivia Game</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="questions.js"></script> 
+  <title>Trivia Game</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="questions.js"></script> 
 </head>
 <body>
-    <div id="header">
-        <img src="sprouts_logo.png" alt="Sprouts Logo"> 
-        <img src="high_brew_logo.png" alt="High Brew Logo"> 
+  <div id="header">
+    <img src="sprouts_logo.png" alt="Sprouts Logo"> 
+    <img src="high_brew_logo.png" alt="High Brew Logo"> 
+  </div>
+
+  <div id="category-selection">
+    <h2>Select a Category</h2>
+    <div id="categories" class="categories"></div>
+  </div>
+
+  <div id="question-screen" style="display: none;">
+    <h2 id="question"></h2>
+    <div class="options">
+      <button class="option"></button>
+      <button class="option"></button>
+      <button class="option"></button>
+      <button class="option"></button>
     </div>
+  </div>
 
-    <div id="category-selection">
-        <h2>Select a Category</h2>
-        <div id="categories" class="categories"></div>
-    </div>
+  <div id="answer-screen" style="display: none;">
+    <h2 id="answer-result"></h2> 
 
-    <div id="question-screen" style="display: none;">
-        <h2 id="question"></h2>
-        <div class="options">
-            <button class="option"></button>
-            <button class="option"></button>
-            <button class="option"></button>
-            <button class="option"></button>
-        </div>
-    </div>
+    <p id="question-in-the-answer"></p> <br /> <p><b>The answer is</b></p> 
+    <p id="correct-answer"></p>
 
-    <div id="answer-screen" style="display: none;">
-        <h2 id="answer-result"></h2>
-        <p id="correct-answer"></p>
-        <p id="fun-fact"></p> 
-        <button id="back-to-categories">Back to Categories</button>
-    </div>
+    <br /><br /><p><b>Fun fact</b> <div id="fun-fact"></div> </p><br />
 
-    <footer>
-        <p>Buy stuff from Beliv</p>
-    </footer>
+    <br /><button id="back-to-categories">Back to Categories</button>
+  </div>
 
-    <script src="trivia.js"></script>
+  <footer>
+    <p>Buy stuff from Beliv</p>
+  </footer>
+
+  <script src="trivia.js"></script>
 </body>
 </html>
