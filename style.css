@@ -82,3 +82,14 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
+
+#all-questions-screen ol {
+    /* Target ordered lists (ol) instead of ul */
+    text-align: left;
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+#all-questions-screen li {
+    text-align: left;
+}

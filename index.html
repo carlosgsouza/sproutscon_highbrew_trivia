@@ -14,6 +14,15 @@
   <div id="category-selection">
     <h2>Select a Category</h2>
     <div id="categories" class="categories"></div>
+    <br>
+    <a href="#" id="view-all-questions">View All Questions</a> 
+  </div>
+
+  <div id="all-questions-screen" style="display: none;">
+    <h2>All Questions</h2>
+    <div id="questions-by-category"></div> 
+    <br>
+    <button id="back-to-categories-from-questions">Back to Categories</button>
   </div>
 
   <div id="question-screen" style="display: none;">
@@ -29,10 +38,10 @@
   <div id="answer-screen" style="display: none;">
     <h2 id="answer-result"></h2> 
 
-    <p id="question-in-the-answer"></p> <br /> <p><b>The answer is</b></p> 
+    <br /><p id="the-question"></p> <br /> <p><b>The answer is:</b></p> 
     <p id="correct-answer"></p>
 
-    <br /><br /><p><b>Fun fact</b> <div id="fun-fact"></div> </p><br />
+    <br /><br /><p><b>Fun fact:</b> <div id="fun-fact"></div> </p><br />
 
     <br /><button id="back-to-categories">Back to Categories</button>
   </div>
