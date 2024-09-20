@@ -77,10 +77,18 @@ function checkAnswer(event) {
     if (selectedAnswer === currentQuestion.correctAnswer) {
         answerResult.textContent = 'Correct!';
         answerResult.classList.remove('incorrect');
+
+        // Play the correct sound
+        const correctSound = document.getElementById('correct-sound');
+        correctSound.play(); 
     } else {
         answerResult.textContent = 'Incorrect!';
         event.target.classList.add('incorrect');
         answerResult.classList.add('incorrect');
+
+        // Play the incorrect sound
+        const incorrectSound = document.getElementById('incorrect-sound');
+        incorrectSound.play(); 
     }
 
     theQuestionElement.textContent = currentQuestion.question;
