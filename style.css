@@ -1,7 +1,7 @@
 body {
     font-family: sans-serif;
-    background-color: #3e6d38;
-    color: #FFFFFF;
+    background-color: #f2f2f2;
+    color: #3e6d38;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -65,22 +65,11 @@ button {
 #header {
     width: 100%;
     z-index: 100;
-}
-
-#header img {
-    height: 150px;
-    width: auto;
-}
-
-footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: #3e6d38;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
+    display: flex; /* Enable flexbox layout for the header */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    padding-bottom: 30px; /* Add 30px bottom padding */
+    gap: 30px; /* Add 30px space between flex items */
 }
 
 #all-questions-screen ol {
