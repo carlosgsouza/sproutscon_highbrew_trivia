@@ -1,4 +1,5 @@
 const questions = [
+  // High Brew Coffee History
   {
     "category": "High Brew Coffee History",
     "question": "What adventure inspired the creation of High Brew Coffee?",
@@ -153,6 +154,8 @@ const questions = [
     ],
     "funFact": "The \"High\" in High Brew stands for the company's commitment to excellence, delivering a premium cold brew experience to customers everywhere!"
   },
+  
+  // High Brew Coffee Products
   {
     "category": "High Brew Coffee Products",
     "question": "What is the most popular flavor of High Brew Coffee?",
@@ -307,6 +310,7 @@ const questions = [
     ],
     "funFact": "The old packaging of High Brew's Cold Brew Dark Chocolate was distinguished by its green and brown design, reflecting earthy and rich tones to match the flavor!"
   },
+  // High Brew & Sprouts -- History & Partnership
   {
     "category": "High Brew & Sprouts -- History & Partnership",
     "question": "When did High Brew Coffee launch at Sprouts?",
@@ -518,6 +522,7 @@ const questions = [
     "incorrectAnswers": ["California", "Colorado", "Arizona"],
     "funFact": "Washington shows the highest sales per TDP for High Brew Coffee YTD 2024, with $536 per Total Distribution Point, reflecting strong market penetration in the state!"
   },
+  // Product Line & Availability at Sprouts
   {
     "category": "Product Line & Availability at Sprouts",
     "question": "How many High Brew Coffee product lines are available at Sprouts currently?",
@@ -537,7 +542,7 @@ const questions = [
     "funFact": "The Nitro Cold Brew Black is a dairy-free option at Sprouts, delivering a smooth, creamy texture without any dairy!"
   },
   {
-    "category": "High Brew Coffee Products",
+    "category": "Product Line & Availability at Sprouts",
     "question": "What type of milk is used in High Brew Mexican Vanilla?",
     "correctAnswer": "Dairy milk",
     "incorrectAnswers": [
@@ -548,7 +553,7 @@ const questions = [
     "funFact": "High Brew\u2019s Mexican Vanilla features traditional dairy milk, combined with vanilla and a hint of cinnamon for a delicious, creamy flavor!"
   },
   {
-    "category": "High Brew Coffee Products",
+    "category": "Product Line & Availability at Sprouts",
     "question": "How much less sugar does High Brew Coffee contain compared to leading ready-to-drink coffee brands?",
     "correctAnswer": "70 to 85% less sugar",
     "incorrectAnswers": [
@@ -559,7 +564,7 @@ const questions = [
     "funFact": "High Brew Coffee contains significantly less sugar than most leading coffee brands, making it a great choice for those looking to reduce their sugar intake!"
   },
   {
-    "category": "High Brew Coffee Products",
+    "category": "Product Line & Availability at Sprouts",
     "question": "What packaging does High Brew offer at Sprouts?",
     "correctAnswer": "Cold Brew 8oz and Nitro Cold Brew 10oz",
     "incorrectAnswers": [
@@ -570,7 +575,7 @@ const questions = [
     "funFact": "High Brew Coffee is available at Sprouts in convenient 8oz and 10oz cans, perfect for on-the-go coffee enthusiasts!"
   },
   {
-    "category": "High Brew Coffee Products",
+    "category": "Product Line & Availability at Sprouts",
     "question": "Which High Brew Coffee product at Sprouts is targeted toward health-conscious consumers?",
     "correctAnswer": "Black & Bold",
     "incorrectAnswers": [
@@ -581,7 +586,7 @@ const questions = [
     "funFact": "Black & Bold is the ideal choice for health-conscious consumers, offering a pure coffee experience with 0g sugar and 0 calories!"
   },
   {
-    "category": "High Brew Coffee Products",
+    "category": "Product Line & Availability at Sprouts",
     "question": "Which High Brew flavor includes almond milk?",
     "correctAnswer": "None",
     "incorrectAnswers": [
@@ -592,7 +597,7 @@ const questions = [
     "funFact": "High Brew Coffee products sold at Sprouts do not contain almond milk, making them dairy-focused or dairy-free based on the product!"
   },
   {
-    "category": "High Brew Coffee Products",
+    "category": "Product Line & Availability at Sprouts",
     "question": "What percentage of High Brew Coffee products sold at Sprouts are sustainably sourced?",
     "correctAnswer": "100%",
     "incorrectAnswers": [
@@ -603,7 +608,7 @@ const questions = [
     "funFact": "High Brew Coffee is committed to sustainability, with all its coffee beans being responsibly and ethically sourced!"
   },
   {
-    "category": "High Brew Coffee Products",
+    "category": "Product Line & Availability at Sprouts",
     "question": "How many calories are in a can of High Brew\u2019s Cold Brew Double Espresso sold at Sprouts?",
     "correctAnswer": "50 calories",
     "incorrectAnswers": [
@@ -614,7 +619,7 @@ const questions = [
     "funFact": "High Brew\u2019s Double Espresso offers a rich coffee flavor with only 50 calories per can, making it a lighter choice compared to other coffee drinks!"
   },
   {
-    "category": "High Brew Coffee Products",
+    "category": "Product Line & Availability at Sprouts",
     "question": "Which High Brew product is sugar-free and available at Sprouts?",
     "correctAnswer": "Black & Bold",
     "incorrectAnswers": [
@@ -625,7 +630,7 @@ const questions = [
     "funFact": "Black & Bold is completely sugar-free, offering coffee drinkers a bold, pure brew without any added sweetness!"
   },
   {
-    "category": "High Brew Coffee Products",
+    "category": "Product Line & Availability at Sprouts",
     "question": "How much caffeine does a can of High Brew\u2019s Double Espresso have?",
     "correctAnswer": "140 mg",
     "incorrectAnswers": [
@@ -636,7 +641,7 @@ const questions = [
     "funFact": "With 140 mg of caffeine, High Brew\u2019s Double Espresso provides a strong, energizing coffee kick with every sip!"
   },
   {
-    "category": "High Brew Coffee Products",
+    "category": "Product Line & Availability at Sprouts",
     "question": "What High Brew flavor includes a cinnamon-infused recipe, and is sold at Sprouts?",
     "correctAnswer": "Mexican Vanilla",
     "incorrectAnswers": [
@@ -647,7 +652,7 @@ const questions = [
     "funFact": "High Brew\u2019s Mexican Vanilla features a touch of cinnamon, giving it a unique and flavorful twist on classic vanilla coffee!"
   },
   {
-    "category": "High Brew Coffee Products",
+    "category": "Product Line & Availability at Sprouts",
     "question": "How many calories are in a can of High Brew\u2019s Nitro Black coffee sold at Sprouts?",
     "correctAnswer": "0 calories",
     "incorrectAnswers": [
@@ -658,7 +663,7 @@ const questions = [
     "funFact": "High Brew\u2019s Nitro Black coffee has 0 calories, making it a perfect option for those looking for a flavorful coffee without any guilt!"
   },
   {
-    "category": "High Brew Coffee Products",
+    "category": "Product Line & Availability at Sprouts",
     "question": "How many grams of sugar are in High Brew\u2019s Cold Brew Double Espresso sold at Sprouts?",
     "correctAnswer": "7 grams",
     "incorrectAnswers": [
@@ -668,6 +673,8 @@ const questions = [
     ],
     "funFact": "High Brew\u2019s Double Espresso contains only 7 grams of sugar, much lower than leading ready-to-drink coffee beverages!"
   },
+  
+  // Cold Brew Coffee
   {
     "category": "Cold Brew Coffee",
     "question": "What is the difference between cold brew and iced coffee?",
