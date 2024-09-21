@@ -94,6 +94,15 @@ function checkAnswer(event) {
     theQuestionElement.textContent = currentQuestion.question;
     correctAnswerElement.textContent = currentQuestion.correctAnswer;
     funFactElement.textContent = currentQuestion.funFact;
+
+    // Send event to Google Analytics
+    const isCorrect = selectedAnswer === currentQuestion.correctAnswer;
+    gtag('event', 'answer_question', {
+        'question': currentQuestion.question,
+        'category': currentQuestion.category,
+        'selected_answer': selectedAnswer,
+        'is_correct': isCorrect 
+    });
 }
 
 // Back to categories
